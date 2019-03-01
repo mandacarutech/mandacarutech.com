@@ -1,0 +1,28 @@
+.Header {
+  position: relative;
+}
+
+.Header_Wrapper {
+  position: relative;
+  max-width: 1320px;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.BackgroundCurve {
+  background-color: #675BAA;
+  height: 1637px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: -1100px;
+  border-bottom-right-radius: 700px;
+  right: 6%;
+}
+
+.CactusImg {
+  height: 437px;
+  position: absolute;
+  right: 10px;
+  top: 150px;
+}

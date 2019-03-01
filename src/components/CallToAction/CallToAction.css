@@ -1,0 +1,38 @@
+.CallToAction {
+  padding-top: 100px;
+}
+
+.CallToAction h3 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.CallToAction h2 {
+  width: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.CallToAction__learn-more {
+  font-family: 'Asap';
+  font-size: 16;
+  color: #EF7B78;
+  text-decoration: none;
+  font-weight: bold;
+  background: #ffffff;
+  padding: 12px 36px;
+  display: inline-block;
+  margin-top: 72px;
+}
+
+.CallToAction__learn-more:hover {
+  background: #FFEDED;
+}
