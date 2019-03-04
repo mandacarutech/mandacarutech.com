@@ -1,5 +1,6 @@
 .Header {
   position: relative;
+  padding-bottom: 240px;
 }
 
 .Header_Wrapper {
@@ -23,6 +24,6 @@
 .CactusImg {
   height: 437px;
   position: absolute;
-  right: 10px;
+  right: 42px;
   top: 150px;
 }

@@ -1,13 +1,17 @@
-import PropTypes from "prop-types";
-import React from "react";
-import "./Layout.css";
+import PropTypes from "prop-types"
+import React from "react"
+import "./Layout.css"
+import Footer from "../Footer"
 
 const TemplateWrapper = ({ children }) => (
-  <div>{children}</div>
-);
+  <div>
+    {children}
+    <Footer />
+  </div>
+)
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};
+  children: PropTypes.func,
+}
 
-export default TemplateWrapper;
+export default TemplateWrapper

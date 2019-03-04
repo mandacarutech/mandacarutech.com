@@ -1,0 +1,80 @@
+.Summary {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+/* TODO: Extract to component */
+.WhoWeAre {
+  flex: 1;
+  padding-top: 120px;
+  padding-right: 26px;
+}
+
+.WhoWeAre__Text {
+  font-size: 24px;
+  line-height: 40px;
+  color: #1F243D;
+  font-weight: 300;
+}
+
+/* TODO: Extract to component */
+.SummaryCards {
+  flex: 1;
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+}
+
+.SummaryCards__Column {
+  padding: 14px 14px;
+}
+
+
+
+.FeaturedTitle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.FeaturedTitle span {
+  position: absolute;
+  color: rgba(103, 88, 172, 0.12);
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.FeaturedTitle h3 {
+  font-size: 34px;
+  color: #1F243D;
+  font-weight: bold;
+}
+
+
+.ClientList {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ClientList__List {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 100px 0 100px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.SummaryCards__Column--left {
+  margin-top: -118px;
+  display: relative;
+  z-index: 300;
+}

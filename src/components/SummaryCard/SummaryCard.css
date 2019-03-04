@@ -1,0 +1,32 @@
+.SummaryCard {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.07);
+  justify-content: center;
+  align-items: center;
+  padding: 36px 24px;
+  margin-bottom: 26px;
+}
+
+.SummaryCard__Text {
+  min-height: 100px;
+  color: #1F243D;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.SummaryCard__Title {
+  color: #6758AC;
+}
+
+.SummaryCard__Circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #FFAB9E;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

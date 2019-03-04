@@ -7,7 +7,7 @@ export default class CallToAction extends React.Component {
       <div className="CallToAction">
         <h3>Leave the tech to us, focus on your mission</h3>
         <h2>We develop clear-cut web and mobile experiences</h2>
-        <a href="javascript:void(0)" className="CallToAction__learn-more">Learn More</a>
+        {/* <a href="javascript:void(0)" title="Learn more about us" className="CallToAction__learn-more">Learn More</a> */}
       </div>
     );
   }
