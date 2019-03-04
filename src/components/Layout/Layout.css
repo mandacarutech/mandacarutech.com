@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700|Source+Sans+Pro:300,400,700');
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -351,5 +353,5 @@ template {
 
 body {
   background-color: #fcfbff;
-  font-family: 'Source Sans Pro', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Source Sans Pro', sans-serif;
 }
